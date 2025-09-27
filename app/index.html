@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Retro Calc</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="calc" role="application" aria-label="Retro pocket calculator">
+        <i class="screw"></i><i class="screw"></i><i class="screw"></i
+        ><i class="screw"></i>
+
+        <div class="brand">
+          <div class="name">CASIO-ISH</div>
+          <div class="badge">RETRO LCD</div>
+        </div>
+
+        <div class="display" aria-live="polite">
+          <div class="history" id="history"></div>
+          <div class="value" id="value">0</div>
+        </div>
+
+        <div class="keys" id="keys">
+          <button class="k-fn" data-action="clear" aria-label="All Clear">
+            AC
+          </button>
+          <button class="k-fn" data-action="sign" aria-label="Toggle Sign">
+            +/−
+          </button>
+          <button class="k-fn" data-action="percent" aria-label="Percent">
+            %
+          </button>
+          <button class="k-op" data-op="/" aria-label="Divide">÷</button>
+
+          <button data-digit="7">7</button>
+          <button data-digit="8">8</button>
+          <button data-digit="9">9</button>
+          <button class="k-op" data-op="*" aria-label="Multiply">×</button>
+
+          <button data-digit="4">4</button>
+          <button data-digit="5">5</button>
+          <button data-digit="6">6</button>
+          <button class="k-op" data-op="-" aria-label="Subtract">−</button>
+
+          <button data-digit="1">1</button>
+          <button data-digit="2">2</button>
+          <button data-digit="3">3</button>
+          <button class="k-op" data-op="+" aria-label="Add">+</button>
+
+          <button class="k-zero" data-digit="0">0</button>
+          <button data-action="decimal">.</button>
+          <button data-action="back" aria-label="Backspace">⌫</button>
+
+          <button class="k-wide k-op" data-action="equals" aria-label="Equals">
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
