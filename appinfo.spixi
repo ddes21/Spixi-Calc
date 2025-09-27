@@ -1,6 +1,6 @@
 caVersion = 0
-id = com.spoony.calc
-publisher = spoony
-name = MyApp
-version = 0.0.1
-capabilities = singleUser
+id = io.github.ddes21.spixi-calc
+publisher = ddes21
+name = Spixi Calc
+version = 1.0.0
+capabilities = multiUser
