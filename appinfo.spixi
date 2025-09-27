@@ -1,5 +1,5 @@
 caVersion = 0
-id = io.github.ddes21.spixi-calc
+id = com.ddes21.spixi-calc
 publisher = ddes21
 name = Spixi Calc
 version = 1.0.0
