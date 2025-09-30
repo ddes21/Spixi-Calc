@@ -4,4 +4,4 @@ publisher = ddes21
 name = SpixiCalc
 version = 1.0.0
 capabilities = singleUser
-contentUrl = https://ddes21.github.io/Spixi-Calc/spixicalc.zip
+contentUrl = https://github.com/ddes21/Spixi-Calc/raw/refs/heads/main/spixicalc.zip
