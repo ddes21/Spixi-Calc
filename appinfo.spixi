@@ -3,5 +3,6 @@ id = com.ddes21.spixi-calc
 publisher = ddes21
 name = SpixiCalc
 version = 1.0.0
-capabilities = singleUser
+capabilities = multiUser
+image = https://ddes21.github.io/Spixi-Calc/spixicalc.png
 contentUrl = https://github.com/ddes21/Spixi-Calc/raw/refs/heads/main/spixicalc.zip
