@@ -1,6 +1,6 @@
 caVersion = 0
 id = com.ddes21.spixi-calc
 publisher = ddes21
-name = Spixi Calc
+name = SpixiCalc
 version = 1.0.0
 capabilities = singleUser
