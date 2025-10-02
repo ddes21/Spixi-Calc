@@ -233,3 +233,21 @@ button.k-zero {
     font-size: 17px;
   }
 }
+
+.close-btn{
+  position: fixed;
+  top: env(safe-area-inset-top, 12px);
+  right: 12px;
+  z-index: 1000;
+  width: 38px; height: 38px;
+  border: 0; border-radius: 999px;
+  background: rgba(0,0,0,.55);
+  color: #fff; font-size: 20px; line-height: 38px;
+  display: grid; place-items: center;
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+}
+.close-btn:active { transform: scale(.96); }
+@media (prefers-color-scheme: light){
+  .close-btn{ background: rgba(0,0,0,.65); }
+}
